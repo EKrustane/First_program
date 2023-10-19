@@ -45,11 +45,12 @@
             // 
             // kvadrats
             // 
-            this.kvadrats.Location = new System.Drawing.Point(165, 165);
+            this.kvadrats.Location = new System.Drawing.Point(160, 166);
             this.kvadrats.Name = "kvadrats";
             this.kvadrats.Size = new System.Drawing.Size(150, 150);
             this.kvadrats.TabIndex = 1;
             this.kvadrats.TabStop = false;
+            
             // 
             // Form
             // 

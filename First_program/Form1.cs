@@ -17,18 +17,27 @@ namespace First_program
         public Form()
         {
             InitializeComponent();
-            PogasIzveide(4);
+            PogasIzveide();
         }
-
-        public void PogasIzveide(int mainigais)
+        
+        public void PogasIzveide()
         {
+            //Pogas izskata apraksts
+            this.Controls.Add(poga);
             poga.BackColor = Color.Red;
-            poga.Width = 50;
-            poga.Height = 20;
+            poga.Width = 100;
+            poga.Height = 50;
             poga.Visible = true;
-            poga.Location = new Point(185, 342);
+            poga.Location = new Point(200, 350);
             poga.Text = "Nospied!";
+            poga.Click += poga_Click;
         }
 
+        private void poga_Click(object sender, EventArgs e)
+        {
+            kvadrats.BackColor = Color.Red;
+        }
+
+        
     }
 }
