@@ -50,7 +50,6 @@
             this.kvadrats.Size = new System.Drawing.Size(150, 150);
             this.kvadrats.TabIndex = 1;
             this.kvadrats.TabStop = false;
-            
             // 
             // Form
             // 
